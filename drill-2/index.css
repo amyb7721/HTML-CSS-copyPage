@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 25px;
+  }
+
+.boxOne {
+    border: 5px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+
+.squareOne{
+    background-color:blueviolet;
+    height: 130px;
+    width: 45px;
+}
+
+.squareTwo {
+    background-color: green;
+    height: 160px;
+    width: 300px;
+    margin: 0 50px;
+}
+
+.circle {
+    background-color: skyblue;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.boxTwo {
+    border: 5px dotted black;
+    padding: 50px;
+    margin-top: 25px; 
+    box-sizing: border-box;
+}
+
+.squareThree {
+    background-color: lemonchiffon;
+    height: 150px;
+    box-shadow: 10px 10px 10px 0px black;
+}
+
+.boxThree {
+    border: 2px solid #ccc;
+    width: 50%;
+    margin: 25px auto; 
+    box-shadow: 3px 3px 5px 0px black;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    letter-spacing: 10px;
+    }
